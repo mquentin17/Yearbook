@@ -1,3 +1,40 @@
 body {
+	font-family: "Open Sans Condensed", sans-serif;
 	background:blue;
 }
+
+.wrapper {
+	background-color: lightgreen;
+	max-width: 1024px;
+	width: 1024px;
+	margin:0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+article {
+	width:25%;
+	background:green;
+	margin:10px 5px 10px 5px;
+
+}
+
+section {
+	background: white;
+}
+
+.left-side-picture {
+	margin-left: 10px;
+}
+
+.right-side-picture {
+	margin-right: 10px;
+}
+
