@@ -1,13 +1,18 @@
 body {
 	font-family: "Open Sans Condensed", sans-serif;
-	background:blue;
+	background:lightblue;
 }
 
 .wrapper {
-	background-color: lightgreen;
+	background-color: lightblue;
 	max-width: 1024px;
 	width: 1024px;
 	margin:0px auto;
+}
+
+img {
+	width:100%;
+	height: auto;
 }
 
 h1,
@@ -21,7 +26,7 @@ h6 {
 
 article {
 	width:25%;
-	background:green;
+	background:gold;
 	margin:10px 5px 10px 5px;
 
 }
@@ -38,3 +43,46 @@ section {
 	margin-right: 10px;
 }
 
+.hobby {
+}
+
+
+ /*
+	Bio Section
+ */
+
+ .bio {
+ 	background: url('../img/earth-from-outer-space.jpg');
+ 	height:700px;
+ 	width: auto;
+ 	text-align: left;
+}
+
+.bio-div {
+	padding-top: 50px;
+	padding-right: 100px;
+}
+
+.bio p {
+	color:white;
+}
+
+.bio h1 {
+	color:white;
+}
+
+/*
+	Hobby Section
+*/
+
+.hobby{
+	display: flex;
+}
+
+.hobby-picture-div {
+	width: 30%;
+}
+
+.hobby-text-div {
+	width: 70%;
+}
