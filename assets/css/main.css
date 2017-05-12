@@ -3,6 +3,15 @@ body {
 	background:lightblue;
 }
 
+a {
+	text-decoration: none;
+	padding: 15px;
+}
+
+a:hover{
+	background:gold;
+}
+
 .wrapper {
 	background-color: lightblue;
 	max-width: 1024px;
@@ -46,6 +55,21 @@ section {
 .hobby {
 }
 
+/*
+	Nav Section
+*/
+
+.nav {
+	border-bottom: 1px solid black;
+	padding: 5px;
+	text-align: right;
+} 
+
+.nav a {
+	margin-right: 5px;
+
+
+}
 
  /*
 	Bio Section
@@ -59,8 +83,8 @@ section {
 }
 
 .bio-div {
-	padding-top: 50px;
-	padding-right: 100px;
+	padding-top: 4px;
+	padding-right: 500px;
 }
 
 .bio p {
@@ -75,8 +99,17 @@ section {
 	Hobby Section
 */
 
-.hobby{
+.item-text {
+	padding: 10px;
+}
+
+.hobby {
 	display: flex;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
 }
 
 .hobby-picture-div {
