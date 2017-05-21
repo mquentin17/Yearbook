@@ -1,6 +1,6 @@
 body {
 	font-family: "Open Sans Condensed", sans-serif;
-	background:lightblue;
+	background: white;
 }
 
 a {
@@ -9,11 +9,12 @@ a {
 }
 
 a:hover{
-	background:gold;
+	border-bottom: 1px solid #darkred;
+    
 }
 
 .wrapper {
-	background-color: lightblue;
+	background-color: darkred;
 	max-width: 1024px;
 	width: 1024px;
 	margin:0px auto;
@@ -60,7 +61,7 @@ section {
 */
 
 .nav {
-	border-bottom: 1px solid black;
+	border-bottom: 1px darkred;
 	padding: 5px;
 	text-align: right;
 } 
@@ -69,6 +70,24 @@ section {
 	margin-right: 5px;
 
 
+}
+
+/*
+	Intro Section
+*/
+
+
+.intro {
+	text-align: center;
+	margin: auto;
+}
+
+.intro-image {
+	width:205px;
+	height:205px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
 }
 
  /*
@@ -99,11 +118,28 @@ section {
 	Hobby Section
 */
 
+.section-label {
+	text-align: center;
+}
+
+.hobby h2 {
+	color: darkred;
+}
+
+.hobby p {
+	color:white;
+
+}
+
 .item-text {
 	padding: 10px;
 }
 
 .hobby {
+	background-color: darkorange;
+}
+
+.hobby-content {
 	display: flex;
 }
 
@@ -112,10 +148,18 @@ section {
 	height: 75px;
 }
 
-.hobby-picture-div {
-	width: 30%;
+
+.hobby-parts {
+	background-color: darkorange;
 }
 
-.hobby-text-div {
-	width: 70%;
+.big-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	overflow: hidden;
+}
+
+.icon-image {
+	margin: auto;
 }
