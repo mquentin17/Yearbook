@@ -61,16 +61,22 @@ section {
 */
 
 .nav {
-	border-bottom: 1px darkred;
 	padding: 5px;
 	text-align: right;
+	border-bottom: 1px solid darkorange;
 } 
 
 .nav a {
 	margin-right: 5px;
-
-
+	color:darkred;
 }
+
+
+a:hover {
+	background-color:darkorange;
+	color:white;
+}
+
 
 /*
 	Intro Section
@@ -88,6 +94,10 @@ section {
 	border-radius: 50%;
 	overflow: hidden;
 	margin: auto;
+}
+
+.title {
+	color:darkred;
 }
 
  /*
@@ -151,6 +161,7 @@ section {
 
 .hobby-parts {
 	background-color: darkorange;
+	width:33%;
 }
 
 .big-icon {
